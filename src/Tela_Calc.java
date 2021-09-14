@@ -1,4 +1,3 @@
-import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.EventQueue;
 import java.awt.Font;
@@ -14,9 +13,6 @@ import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 import java.util.ArrayList;
 import java.awt.SystemColor;
-import javax.swing.JMenu;
-import javax.swing.JSlider;
-import java.awt.Scrollbar;
 
 public class Tela_Calc extends JFrame {
 
@@ -25,6 +21,7 @@ public class Tela_Calc extends JFrame {
 	    private String texto = "";
 	    private float num;
 	    private String numero = "";
+		Operacoes operacaoes = new Operacoes();
 		/**
 		 * Launch the application.
 		 */
